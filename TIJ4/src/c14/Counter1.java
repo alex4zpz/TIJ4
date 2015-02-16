@@ -11,6 +11,7 @@ public class Counter1 extends Applet {
 	private boolean runFlag = true;
 
 	public void init() {
+		//提交测试。。。
 		add(t);
 		start.addActionListener(new StartL());
 		add(start);
