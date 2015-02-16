@@ -68,6 +68,8 @@ public class Counter4 extends Applet {
 		Counter4 applet = new Counter4();
 		// This isn't an applet, so set the flag and
 		// produce the parameter values from args:
+		
+		//测试乱码
 		applet.isApplet = false;
 		applet.size = (args.length == 0 ? 5 : Integer.parseInt(args[0]));
 		Frame aFrame = new Frame("Counter4");
